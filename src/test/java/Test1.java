@@ -18,8 +18,11 @@ public class Test1 {
     WebElement clickMeButton = driver.findElement(By.id("button"));
     clickMeButton.click();
     if(clickMeButton.isSelected());{
-        System.out.println("Dugme je kliknuto " );
+        stampaj("Dugme je kliknuto " );
         }
         }
+    public static void stampaj(String s) {
+        System.out.println(s);
+    }
     }
 
